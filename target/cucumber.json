@@ -1,0 +1,341 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7849000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to Mercury Application",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.navigateToApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1059000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks Register Link",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.clickRegisterLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-11T15:54:29.798Z",
+        "line": 7,
+        "name": "Verify User able to register",
+        "description": "",
+        "id": "mercury-registeration;verify-user-able-to-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User provides Contact Information \"John\" \"Cena\" \"703-333 -9999\" \"john@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Cena\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"703-333 -9999\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"john@gmail.com\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterContactInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 497000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User provides Mailing Infomration \"123 street dr\" \"reston\" \"VA\" \"20191\" \"ARUBA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 street dr\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"reston\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"VA\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"20191\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"ARUBA\"",
+                  "offset": 72
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterMailingInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User provides User Information \"admin\" \"123456a\" \"123456a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"123456a\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"123456a\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterUserInfo(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verifies success message \"Success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success!\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.verifyMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4823000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to Mercury Application",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.navigateToApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 895000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks Register Link",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.clickRegisterLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-11T15:54:41.528Z",
+        "line": 23,
+        "name": "Verify User able to register",
+        "description": "",
+        "id": "mercury-registeration;verify-user-able-to-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 457000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User provides Contact Information \"John\" \"Cena\" \"703-333 -9999\" \"john@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Cena\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"703-333 -9999\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"john@gmail.com\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterContactInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 502000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User provides Mailing Infomration \"123 street dr\" \"reston\" \"VA\" \"20191\" \"ARUBA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 street dr\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"reston\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"VA\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"20191\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"ARUBA\"",
+                  "offset": 72
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterMailingInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User provides User Information \"admin\" \"123456a\" \"123456a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"123456a\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"123456a\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.enterUserInfo(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "com.noorteck.qa.steps.MercuryStepDef.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User verifies success message \"Success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success!\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.noorteck.qa.steps.MercuryStepDef.verifyMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Registeration",
+    "description": "",
+    "id": "mercury-registeration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ntk1/Mercury.feature",
+    "tags": []
+  }
+]
